@@ -32,7 +32,13 @@ Before you can use the tools and projects in this repository, ensure you have th
 git clone git@github.com:wallstreetclub/quant-division.git
 cd quant-division
 ```
+# Quant Division
+
+This repository contains various quantitative finance projects and materials.
+
 ## Folder Structure
+
+```
 quant-division/
 │
 ├── data/                   # Raw and processed data files
@@ -41,43 +47,44 @@ quant-division/
 │   ├── momentum_investing/ # Momentum Investing project
 │   └── business_analysis_workshop/ # Business Analysis Workshop materials
 └── README.md               # This README file
+```
 
-## Projects
+## Project Overview
 
-Momentum Investing
-Description: This project focuses on implementing and backtesting a momentum investing strategy. Momentum investing involves buying securities that have shown an upward price trend and selling those that have performed poorly.
-Location: src/momentum_investing/
-Features:
+This repository is organized to support multiple quantitative finance projects and educational materials. Here's a brief description of each main directory:
 
-Data collection and processing for momentum indicators.
-Strategy implementation and backtesting.
-Performance evaluation and reporting.
-Business Analysis Workshop
-Description: This folder contains the materials for the Business Analysis Workshop organized by the Quant Division. The workshop covers various aspects of financial analysis, valuation techniques, and business model evaluation.
-Location: src/business_analysis_workshop/
-Contents:
-Dataset
-Jupyter notebooks for hands-on sessions.
+- `data/`: Contains raw and processed data files used across different projects.
+- `notebooks/`: Jupyter notebooks for data analysis, model prototyping, and result visualization.
+- `src/`: Source code for various projects and workshops.
+  - `momentum_investing/`: Implementation of momentum investing strategies.
+  - `business_analysis_workshop/`: Materials and code for the Business Analysis Workshop.
 
 
-## Contirbution
+
+## Contribution
 
 We welcome contributions from members of the Wall Street Club! If you have an idea for a new project or want to improve an existing one, follow these steps:
 
 Fork the repository.
 Create a new branch for your feature or bug fix:
-bash
+```bash
 Copy code
 git checkout -b feature/your-feature-name
+```
 Commit your changes:
-bash
+```bash
 Copy code
 git commit -m "Add a descriptive commit message"
+```
 Push the branch:
-bash
+```bash
 Copy code
 git push origin feature/your-feature-name
+```
 Create a Pull Request on GitHub.
-
+```bash
+create a pull request
+git pull
+```
 ## License
 This repository is licensed under the MIT License. See the LICENSE file for more details.
