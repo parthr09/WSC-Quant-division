@@ -61,7 +61,7 @@ This repository is organized to support multiple quantitative finance projects a
 
 
 
-## Contribution
+## Contributing
 
 We welcome contributions from members of the Wall Street Club! If you have an idea for a new project or want to improve an existing one, follow these steps:
 
