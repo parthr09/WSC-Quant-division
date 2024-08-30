@@ -68,22 +68,18 @@ We welcome contributions from members of the Wall Street Club! If you have an id
 Fork the repository.
 Create a new branch for your feature or bug fix:
 ```bash
-Copy code
 git checkout -b feature/your-feature-name
 ```
 Commit your changes:
 ```bash
-Copy code
 git commit -m "Add a descriptive commit message"
 ```
 Push the branch:
 ```bash
-Copy code
 git push origin feature/your-feature-name
 ```
 Create a Pull Request on GitHub.
 ```bash
-create a pull request
 git pull
 ```
 ## License
